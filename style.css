@@ -1,0 +1,37 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+ul li {
+    display: inline-block;
+}
+a:link{text-decoration: none;}
+.me{background-color: rgb(255, 0, 51);
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.nav-link {
+    display: flex;
+justify-content: space-around;
+align-items: center;
+list-style: none;
+width: 60%;
+margin-right: 60px;
+}
+.about-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bolder;
+    color: blue;
+    }
+    .watchvideo-btn{
+    border: navajowhite;
+    width: 600px;
+    height: 400px;
+    margin-left: 400px;
+    
+    }
+    iframe{
+        width: 500px;
+        height: 300px;
+    }
